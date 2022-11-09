@@ -72,8 +72,7 @@ extensions = [
     ),
 ]
 
-with open("readme.md", "r") as file:
-    long_description = file.read()
+long_description = ""
 
 setup(
     name="pyautotrace",
